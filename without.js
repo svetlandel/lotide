@@ -21,7 +21,7 @@ function eqArrays( array1, array2) {
       };
 
       function without(originalArray, arrayToExclude){
-        const newArray = [];
+        var newArray = [];
         for (let i =0; i < originalArray.length; i++) {
           var flag = true;
             for (let j=0; j < arrayToExclude.length; j++) {          
@@ -36,3 +36,4 @@ function eqArrays( array1, array2) {
         console.log(newArray);
         return newArray;
       }
+      module.exports = without;

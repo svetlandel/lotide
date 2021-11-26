@@ -16,3 +16,4 @@ function assertEqual (actual, expected) {
      }
      return undefined;
  }
+ module.exports = findKeyByValue;

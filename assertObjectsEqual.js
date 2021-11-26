@@ -46,3 +46,4 @@ function assertEqual (actual, expected) {
             console.log("Objects do not match: " + "object 1: ["+ inspect(actual) + "] " + " object2: ["+ inspect(expected) + "]");
           }
       };
+      module.exports = assertObjectsEqual;

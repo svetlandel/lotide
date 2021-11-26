@@ -19,3 +19,4 @@ function assertEqual (actual, expected) {
   }
   return results;
 }
+module.exports = countOnly;
